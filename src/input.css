@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(./assests/Gilroy-FREE/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url(./assests/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+
+@theme inline {
+  --color-primary: #0d1b39;
+  --color-grey-light: #8d8d8d;
+  --color-secondary: #e58411;
+  --color-background: #f7f7f7;
+  --color-foreground: #eee;
+  --font-gilroy: "Gilroy";
+  --font-gilroy-bold: "Gilroy Bold";
+}
